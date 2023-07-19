@@ -9,7 +9,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-@Table("item_estoque")
+//@Table("item_estoque")
 public class ItemEstoque {
     
     @Id
@@ -19,7 +19,7 @@ public class ItemEstoque {
  
     private Double valor;
 
-    @Column("lote_fk")
-    private Long lote_fk;
+    //@Column("lote_fk")
+    private Long loteFk;
  
 }

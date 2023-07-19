@@ -1,4 +1,4 @@
-package com.springtest.servicema;
+package com.springtest.servicema.rabbitmq;
 
 import org.springframework.amqp.core.Queue;
 import org.springframework.beans.factory.annotation.Value;

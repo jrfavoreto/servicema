@@ -18,3 +18,10 @@ CREATE TABLE if not exists item_estoque
     valor NUMBER(15,2) NOT NULL,
     lote_fk BIGINT NOT NULL
 );
+
+
+CREATE SEQUENCE if not exists id_item_estoque_sq
+    INCREMENT BY 1
+    START WITH 1
+    MINVALUE 1
+;
